@@ -1,0 +1,98 @@
+/* Reset sederhana */
+body 
+{.nav {
+  margin-top: 1px;
+  background: #fff;
+  padding: 10px;
+}
+  .logo {
+      display: block;
+      margin: 0 auto;
+      width: 80px; /* atur sesuai ukuran logo */
+    }
+    
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+ h1 {
+  text-align: center;
+  color: #425da8; /* biru navy */
+  margin: 7px 0 5px 0;
+}
+
+/* Warna latar untuk memvisualisasikan blok */
+header,
+.header {
+  background: #fff;
+  color: rgb(196, 181, 181);
+  padding: 15px;
+  text-align: center;
+}
+
+nav,
+.nav {
+  margin-top: 10px;
+  background: #5b3c3ce4;
+  padding: 10px;
+}
+.nav a{
+  color: darkslateblue;
+  text-decoration: none; /*hapus garis bawah*/
+  border-radius: 22px;  /* ubah sudut jadi bulat (jadi kayak sosis) */
+  background: #fff;
+  padding: 6px 14px;
+  /*padding-top:6px*/
+  /*padding-bottom:6px*/
+  /*padding-left:14px*/
+  /*padding-right:14px*/
+  margin-right: 14px;  /*jarak luar antar link*/
+}
+
+    .highlight {
+      font-weight: bold;
+      color: #1e3a8a;
+      border-left: 4px solid #fbbf24; /* kuning */
+      padding-left: 8px;
+      margin-bottom: 10px;
+    }
+
+.active {
+  background: #1e3a8a;
+  color: #fff;
+}
+main,
+.main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+h3 {
+      margin-top: 0;
+      color: #007bff; /* Subjudul biru */
+      border-left: 4px solid #ffc107e4; /* Garis samping kuning */
+      padding-left: 10px;
+    }
+.section {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      border: 1px solid #e0e0e0;
+    }
+.profile {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+
+.profile img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+
+    }
+   

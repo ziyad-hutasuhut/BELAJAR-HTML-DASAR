@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 form</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+
+</head>
+<body>
+    <main class="container">
+        <h1>HTML 5 form</h1>
+        <hr />
+    
+    <form>
+        <div>
+            <!--tips shorcut: input [type nya]-->
+            <label for="inputNama">nama lengkap</label>
+            <input type="text" name="nama lengkap" id="inputName"/> 
+        </div>
+         <div>
+            <!--tips shorcut: input [type nya]-->
+            <label for="inputAge">Umur</label>
+            <input type="number" name="umur" id="inputAge"/> 
+        </div>
+        <div>
+            <label for="inputBio">biografi</label>
+            <textarea name="bio" id="inputBio"></textarea>
+        </div>
+        <!--actions button-->
+        <div class="grid">
+            <button type="reset">batalkan</button>
+            <button type="submit">kirim</button>
+        </div>
+        <div>
+            <p>Jenis kelamin</p>
+            <input type="radio" name="jenis kelamin" id="inputlanang" />
+            <label for="inputlanang">pria</label>
+            <input type="radio" name="jenis kelamin" id="input"wedok /> 
+            <label for="inputwedok">wanita</label>       
+        </div>
+        <br /><br />
+        <div>
+            <p>hobi</p>
+            <input type="checkbox" name="hobi" id="inputmancing" />
+            <label for="inputmancing">mancing</label>
+            <input type="checkbox" name="hobi" id="inputtidur /> 
+            <label for="inputwedok">tidur</label>
+            <input type="checkbox" name="hobi" id="inputfutsal"
+            <label for="inputfutsal">futsal</label>
+        </div><br/><br/>
+        <div>
+            <label for="inputAsal">Asal Daerah</label>
+            <select name="inputAsal" id="Asal Daerah">
+                <option value="JKT">jakarta</option>
+                <option value="CRB">cirebon</option>
+                <option value="BDG">bandung</option>
+                <option value="YOG">yogyakarta</option>
+                <option value="BKS">bekasi</option>
+                <option value="PRJ">purworejo</option>
+                <option value="KNG">kuningan</option>
+            </select>
+        </div><br /><br />
+        
+        <div>
+            <label for="inputDate">tanggal lahir</label>
+            <input type="date" name="Tanggal lahir" id="inputDate"
+        </div>
+        <div>
+            <label for="inputEmail">Email</label>
+            <input type="email" name="email" id="inputEmail"
+        </div>
+    </form>
+    </main>
+</body>
+</html>

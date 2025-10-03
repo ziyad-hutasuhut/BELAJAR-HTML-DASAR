@@ -1,0 +1,104 @@
+/* Reset sederhana */
+body 
+{.nav {
+  margin-top: 1px;
+  background: #fff;
+  padding: 10px;
+}
+  .logo {
+      display: block;
+      margin: 0 auto;
+      width: 80px; /* atur sesuai ukuran logo */
+    }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+ h1 {
+  text-align: center;
+  color: #425da8; /* biru navy */
+  margin: 7px 0 5px 0;
+}
+
+/* Warna latar untuk memvisualisasikan blok */
+header,
+.header {
+  background: #fff;
+  color: rgb(196, 181, 181);
+  padding: 15px;
+  text-align: center;
+}
+
+nav,
+.nav {
+  margin-top: 10px;
+  background: #5b3c3ce4;
+  padding: 10px;
+}
+.nav a{
+  color: darkslateblue;
+  text-decoration: none; /*hapus garis bawah*/
+  border-radius: 22px;  /* ubah sudut jadi bulat (jadi kayak sosis) */
+  background: #fff;
+  padding: 6px 14px;
+  /*padding-top:6px*/
+  /*padding-bottom:6px*/
+  /*padding-left:14px*/
+  /*padding-right:14px*/
+  margin-right: 14px;  /*jarak luar antar link*/
+}
+
+main,
+.main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+/* Section / Artikel utama */
+section,
+.section {
+  flex: 2;
+  background: #e3f2fd;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* Article khusus */
+article,
+.article {
+  background: #bbdefb;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Sidebar / aside */
+aside,
+.aside {
+  flex: 1;
+  background: #ffe082;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer,
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+      font-weight: bold;
+      color: #1e3a8a;
+      border-left: 4px solid #fbbf24; /* kuning */
+      padding-left: 8px;
+      margin-bottom: 10px;
